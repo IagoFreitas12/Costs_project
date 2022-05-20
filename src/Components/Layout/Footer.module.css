@@ -1,0 +1,41 @@
+.footer {
+    
+    background-color: rgb(40, 40, 40);
+    padding: 1em;
+    height: 60px;
+    text-align: center;
+    /* display: flex;
+    justify-content:center;
+    align-items: center; */
+}
+
+footer ul li a {
+    color: black;
+} 
+
+footer ul li {
+    display: flex;
+    justify-content: center;
+    padding-right: 10px;
+    color: black;
+    list-style: none;
+    margin: 0 1em;
+}
+
+.footer .item {
+    display: flex;
+    justify-content: center;
+    color: black;
+    list-style: none;
+    font-size: 1.2em;
+}
+
+.item :hover{
+    color: rgb(130, 130, 100);
+}
+
+.copyright {
+    margin-top: 1em;
+    font-weight: bold;
+    color: rgb(178, 178, 178);
+}
