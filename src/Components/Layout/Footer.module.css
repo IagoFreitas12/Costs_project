@@ -1,7 +1,6 @@
 .footer {
-    
     background-color: rgb(40, 40, 40);
-    padding: 1em;
+    padding-top: 1.2em;
     height: 60px;
     text-align: center;
     /* display: flex;
@@ -11,6 +10,7 @@
 
 footer ul li a {
     color: black;
+    margin-bottom: 0;
 } 
 
 footer ul li {
@@ -20,6 +20,7 @@ footer ul li {
     color: black;
     list-style: none;
     margin: 0 1em;
+    margin-bottom: 0;
 }
 
 .footer .item {
@@ -28,6 +29,7 @@ footer ul li {
     color: black;
     list-style: none;
     font-size: 1.2em;
+    margin-bottom: 0;;
 }
 
 .item :hover{
@@ -35,7 +37,9 @@ footer ul li {
 }
 
 .copyright {
-    margin-top: 1em;
+    padding: 1em;
+    background-color: rgb(40, 40, 40);
+    width: 100%;
     font-weight: bold;
     color: rgb(178, 178, 178);
 }
